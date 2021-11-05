@@ -16,7 +16,10 @@ function createWindow () {
     // and load the index.html of the app.
     win.loadURL('https://music.yandex.ru/')
     // Open the DevTools.
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
+    win.webContents.on('did-finish-load', function() {
+        win.webContents.executeJavaScript("$('.bar-below').remove()").catch(() => {})
+    });
 }
 
 // This method will be called when Electron has finished

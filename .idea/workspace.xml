@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6384c17-5132-480c-a670-6e6995c73c4f" name="Default Changelist" comment="" />
+    <list default="true" id="d6384c17-5132-480c-a670-6e6995c73c4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hunAuFQ1bpK1g1alRJtukRsnzD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +32,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -36,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build:mac">
+  <component name="RunManager" selected="npm.build:win">
     <configuration name="build:mac" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -74,8 +79,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build:mac" />
         <item itemvalue="npm.build:win" />
+        <item itemvalue="npm.build:mac" />
       </list>
     </recent_temporary>
   </component>
@@ -89,48 +94,23 @@
       <updated>1600869704271</updated>
       <workItem from="1600869705295" duration="4408000" />
       <workItem from="1601083409876" duration="3258000" />
+      <workItem from="1636108994432" duration="1182000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="708" y="195" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600869865490">
-      <screen x="0" y="23" width="1920" height="1009" />
-    </state>
-    <state x="708" y="195" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1009@0.23.1920.1009" timestamp="1600869865490" />
-    <state x="649" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601085188569">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="649" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601085188569" />
-    <state x="648" y="267" key="FileChooserDialogImpl" timestamp="1601086691173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="648" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601086691173" />
-    <state width="1366" height="324" key="GridCell.Tab.0.bottom" timestamp="1601086447114">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601086447114" />
-    <state width="1214" height="244" key="GridCell.Tab.0.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1600873577584" />
-    <state width="1366" height="324" key="GridCell.Tab.0.center" timestamp="1601086447114">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601086447114" />
-    <state width="1214" height="244" key="GridCell.Tab.0.center/0.23.1920.1009@0.23.1920.1009" timestamp="1600873577584" />
-    <state width="1366" height="324" key="GridCell.Tab.0.left" timestamp="1601086447113">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601086447113" />
-    <state width="1214" height="244" key="GridCell.Tab.0.left/0.23.1920.1009@0.23.1920.1009" timestamp="1600873577583" />
-    <state width="1366" height="324" key="GridCell.Tab.0.right" timestamp="1601086447114">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601086447114" />
-    <state width="1214" height="244" key="GridCell.Tab.0.right/0.23.1920.1009@0.23.1920.1009" timestamp="1600873577584" />
-    <state x="369" y="171" key="SettingsEditor" timestamp="1601086692098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="369" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601086692098" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
