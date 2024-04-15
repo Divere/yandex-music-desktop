@@ -1,4 +1,4 @@
-const { app, BrowserWindow, globalShortcut } = require('electron')
+const { app, BrowserWindow, globalShortcut, nativeTheme } = require('electron')
 
 let win;
 
@@ -8,7 +8,8 @@ function createWindow () {
         width: 1100,
         height: 700,
         webPreferences: {
-            nodeIntegration: false
+            nodeIntegration: false,
+            enableBlinkFeatures: "CSSColorSchemeUARendering"
         }
     })
 
@@ -17,9 +18,18 @@ function createWindow () {
     win.loadURL('https://music.yandex.ru/')
     // Open the DevTools.
     //win.webContents.openDevTools()
+
     win.webContents.on('did-finish-load', function() {
+        console.log('did-finish-load')
         win.webContents.executeJavaScript("$('.bar-below').remove()").catch(() => {})
+        win.webContents.executeJavaScript("$('head').append('<meta name=\"color-scheme\" content=\"light dark\">')").catch((e) => console.log(e))
     });
+
+    setInterval(() => {
+        win.webContents.executeJavaScript("$('.rup__animation').remove()").catch(() => {})
+    }, 5000)
+
+    nativeTheme.themeSource = "dark"
 }
 
 // This method will be called when Electron has finished
